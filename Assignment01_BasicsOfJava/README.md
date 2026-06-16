@@ -1,12 +1,12 @@
 ## Question 1
 
-##Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava, then create a Java file named SimpleInterestCalculator.java, write the solution, save it inside the folder, and then add, commit, and push.
-##Path:- Assignment01_BasicOfJava/SimpleInterestCalculator.java
+# Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava, then create a Java file named SimpleInterestCalculator.java, write the solution, save it inside the folder, and then add, commit, and push.
+## Path:- Assignment01_BasicOfJava/SimpleInterestCalculator.java
 
-##Simple Interest Calculator
+# Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
 
-##Problem Statement:
+## Problem Statement:
 Write a Java program that:
 Accepts the following inputs:
 - Account Number (int)
@@ -16,14 +16,14 @@ Accepts the following inputs:
 - Rate of Interest (double)
 - Time in Years (int)
 
-###Computes:
+### Computes:
 Simple Interest = (Principal × Rate × Time) / 100
 
-###Displays:
+### Displays:
 - Account and Customer details
 - All inputs and the calculated interest
 
-###Sample Input:
+### Sample Input:
 Enter account number: 10123
 Enter customer name: Alice
 Is account active (true/false): true
@@ -31,7 +31,7 @@ Enter principal amount: 15000
 Enter rate of interest: 6.5
 Enter time (in years): 2
 
-###Sample Output:
+### Sample Output:
 Interest Details:
 Account No: 10123
 Customer Name: Alice
@@ -41,10 +41,10 @@ Rate of Interest: 6.5%
 Time (years): 2
 Simple Interest: 1950.0
 
-###Constraints:
+### Constraints:
 Use the class name as SimpleInterestCalculator
 
-###Variable Names:
+### Variable Names:
 Use the following variable names exactly:
 - accountNumber (int)
 - customerName (String)
