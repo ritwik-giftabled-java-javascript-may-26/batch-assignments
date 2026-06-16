@@ -1,9 +1,9 @@
 ## Question 1
 
-#Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava, then create a Java file named SimpleInterestCalculator.java, write the solution, save it inside the folder, and then add, commit, and push.
+##Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava, then create a Java file named SimpleInterestCalculator.java, write the solution, save it inside the folder, and then add, commit, and push.
 ##Path:- Assignment01_BasicOfJava/SimpleInterestCalculator.java
 
-#Simple Interest Calculator
+##Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
 
 ##Problem Statement:
