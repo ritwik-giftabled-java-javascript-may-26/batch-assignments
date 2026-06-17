@@ -57,3 +57,66 @@ Use the following variable names exactly:
 
 Ensure outputs follow the same structure and format as shown in the sample output (including order and percentage sign).  
 Decimal formatting also needs to be taken care of.
+
+# Question 2
+
+# Student Report Card Generator
+You are developing a basic report card generator for a college's internal system. The system should accept student details and marks for three subjects, then compute the result summary using conditional logic and modular methods.  
+
+## Problem Statement:  
+Write a Java program that:  
+Accepts the following student details:  
+- Name (String)  
+- Roll Number (int)  
+- Marks for 3 subjects (int values out of 100)  
+
+### Computes:  
+Total Marks  
+Average Marks  
+Grade based on average  
+Pass/Fail Status: A student is considered passed only if they score at least 40 marks in all three subjects  
+
+Displays a formatted report card with the following details:  
+Name  
+Roll number  
+Subject marks  
+Total, Average, Grade  
+Final Result PASS or FAIL  
+
+### Grading Criteria:  
+| Average Marks | Grade |
+| 90-100 | A |
+| 80-89 | B |
+| 70-79 | C |
+| 60-69 | D |
+| Below 60 | F |
+  
+**Fail override rule:** If any individual subject has < 40 marks, the result is FAIL and grade is F even if the average is 60+  
+
+### Sample Input:  
+Enter student name: John  
+Enter roll number: 23  
+Enter marks for 3 subjects (out of 100):  
+Subject 1: 85  
+Subject 2: 78  
+Subject 3: 92  
+
+### Sample Output:  
+--Report Card--  
+Name: John  
+Roll No: 23  
+Marks: 85, 78, 92 Total: 255  
+Average: 85.00  
+Grade: B  
+Result: PASS  
+
+### Constraints:  
+- The class name should be GradingSystem.
+- Implement and use the following exact method signatures:
+  - public static int calculate Total(int ml, int m2, int m3)
+  - public static double calculateAverage (int total)
+  - public static char calculateGrade(double average)
+  - public static boolean isPass(int ml, int m2, int m3)
+  - public static void printReport(String name, int roll, int ml, int m2, int m3, int total, double average, char grade, boolean isPassed)
+- Input must be taken using Scanner class.
+- Format the average up to 2 decimal places in the output.
