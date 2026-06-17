@@ -128,3 +128,38 @@ Result: PASS
 ## Steps to follow:-  
 Inside the folder "Assignment01_BasicsOfJava", create a Java file named ElectricityBillCalculator.java, write the solution, save it, and then do git add, commit, and push.  
 **Path:-** Assignment01_BasicOfJava/ElectricityBillCalculator.java
+
+## Problem Statement:  
+You are building an electricity billing system for a local utility provider. Based on the number of units consumed, a different rate per unit is applied. Your task is to calculate the final bill amount using methods and conditional statements.  
+
+### Billing Rules:  
+Units Consumed - Rate per Unit  
+0-100 - Rs1.5  
+101-300 - Rs2.5  
+301-500-Rs4.0  
+Above 500 - Rs6.0  
+
+**The applicable rate is based on the total units falling into a single slab - billing is not cumulative across slabs.**  
+
+### Sample Input:  
+Enter Customer ID: 1024  
+Enter Customer Name: Rahul  
+Enter Units Consumed: 275  
+
+### Sample Output:  
+Electricity Bill:  
+Customer ID: 1024  
+Customer Name: Rahul  
+Units Consumed: 275  
+Total Bill: Rs687.50  
+
+### Constraints:  
+- The class name must be: ElectricityBillCalculator  
+- You must create a method named calculateBill(int units) that returns a double  
+- Use the following variable names exactly in your program:
+  - customerld (int)
+  - customerName (String)
+  - units (int)
+  - billAmount (double)
+- Read all input using the Scanner class
+- The total bill amount displayed must be rounded to 2 decimal places
