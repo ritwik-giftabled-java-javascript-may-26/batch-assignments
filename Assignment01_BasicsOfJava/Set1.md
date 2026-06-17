@@ -1,6 +1,4 @@
-# Question 1
-
-## Steps to Follow:-  
+## Important Steps to Follow:-  
 - Clone your "name-assignments" repository.
 - Create a folder named Assignment01_BasicsOfJava.
 - Inside Assignment01_BasicsOfJava, create a folder named Set1.
@@ -11,13 +9,11 @@
   - git commit -m "Completed Assignment01 Set1 - Simple Interest Calculator"
   - git push
 - Expected Folder Structure
-Assignment01_BasicsOfJava
-|
-└── Set1
-     |
-     └── SimpleInterestCalculator.java
+  - Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
 - Expected Path
-Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
+  - Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
+
+# Question 1
 
 # Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
