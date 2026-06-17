@@ -8,9 +8,7 @@
   - git add .
   - git commit -m "Completed Assignment01 Set1 - Simple Interest Calculator"
   - git push
-- Expected Folder Structure
-  - Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
-- Expected Path
+- Expected Folder Structure/Path  
   - Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
 
 # Question 1
