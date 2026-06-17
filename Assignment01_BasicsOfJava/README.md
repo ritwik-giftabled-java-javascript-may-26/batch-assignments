@@ -57,6 +57,10 @@ Simple Interest: 1950.0
 
 # Question 2
 
+## Steps to follow:-  
+Inside the folder "Assignment01_BasicsOfJava", create a Java file named StudentReportCardGenerator.java, write the solution, save it, and then do git add, commit, and push.  
+**Path:-** Assignment01_BasicOfJava/StudentReportCardGenerator.java
+
 # Student Report Card Generator
 You are developing a basic report card generator for a college's internal system. The system should accept student details and marks for three subjects, then compute the result summary using conditional logic and modular methods.  
 
@@ -118,3 +122,9 @@ Result: PASS
   - public static void printReport(String name, int roll, int ml, int m2, int m3, int total, double average, char grade, boolean isPassed)
 - Input must be taken using Scanner class.
 - Format the average up to 2 decimal places in the output.
+
+# Question 3
+
+## Steps to follow:-  
+Inside the folder "Assignment01_BasicsOfJava", create a Java file named ElectricityBillCalculator.java, write the solution, save it, and then do git add, commit, and push.  
+**Path:-** Assignment01_BasicOfJava/ElectricityBillCalculator.java
