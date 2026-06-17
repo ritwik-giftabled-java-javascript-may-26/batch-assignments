@@ -59,7 +59,9 @@ Number of digits in 45982 is: 5
 Inside the folder "Assignment01_BasicsOfJava/Set2", create a Java file named CafeteriaBillingSystem.java, write the solution, save it, and then do git add, commit, and push.  
 **Path:-** Assignment01_BasicsOfJava/Set2/CafeteriaBillingSystem.java
 
-# Cafeteria Billing System Problem Statement:
+# Cafeteria Billing System 
+
+## Problem Statement:
 You are building a simple Cafeteria Billing System. 
 - Display a menu with item numbers and prices.
 - Let the user select an item by entering its number and provide the quantity.
@@ -71,7 +73,7 @@ You are building a simple Cafeteria Billing System.
 1. Coffee - Rs 50  
 2. Sandwich - Rs 70  
 3. Burger - Rs 100  
-O. Exit  
+0. Exit  
 
 ### Sample Input:  
 Enter item number (0 to finish): 1  
