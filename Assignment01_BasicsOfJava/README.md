@@ -1,7 +1,8 @@
-## Question 1
+# Question 1
 
-### Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava, then create a Java file named SimpleInterestCalculator.java, write the solution, save it inside the folder, and then add, commit, and push.
-## Path:- Assignment01_BasicOfJava/SimpleInterestCalculator.java
+## Steps to follow:-
+Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava. Inside the folder, create a Java file named SimpleInterestCalculator.java, write the solution, save it, and then do git add, commit, and push.
+**Path:-** Assignment01_BasicOfJava/SimpleInterestCalculator.java
 
 # Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
@@ -24,22 +25,22 @@ Simple Interest = (Principal × Rate × Time) / 100
 - All inputs and the calculated interest
 
 ### Sample Input:
-Enter account number: 10123
-Enter customer name: Alice
-Is account active (true/false): true
-Enter principal amount: 15000
-Enter rate of interest: 6.5
-Enter time (in years): 2
+Enter account number: 10123  
+Enter customer name: Alice  
+Is account active (true/false): true  
+Enter principal amount: 15000  
+Enter rate of interest: 6.5  
+Enter time (in years): 2  
 
 ### Sample Output:
-Interest Details:
-Account No: 10123
-Customer Name: Alice
-Account Active: true
-Principal Amount: 15000.0
-Rate of Interest: 6.5%
-Time (years): 2
-Simple Interest: 1950.0
+Interest Details:  
+Account No: 10123  
+Customer Name: Alice  
+Account Active: true  
+Principal Amount: 15000.0  
+Rate of Interest: 6.5%  
+Time (years): 2  
+Simple Interest: 1950.0  
 
 ### Constraints:
 Use the class name as SimpleInterestCalculator
