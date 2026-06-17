@@ -1,3 +1,5 @@
+# Question 1
+
 ## Important Steps to Follow:-  
 - Clone your "name-assignments" repository.
 - Create a folder named Assignment01_BasicsOfJava.
@@ -10,8 +12,6 @@
   - git push
 - Expected Folder Structure/Path  
   - Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
-
-# Question 1
 
 # Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
