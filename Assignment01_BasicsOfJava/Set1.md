@@ -1,8 +1,23 @@
 # Question 1
 
-## Steps to follow:-
-Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava. Inside the folder, create a Java file named SimpleInterestCalculator.java, write the solution, save it, and then do git add, commit, and push.  
-**Path:-** Assignment01_BasicOfJava/SimpleInterestCalculator.java
+## Steps to Follow:-  
+- Clone your "name-assignments" repository.
+- Create a folder named Assignment01_BasicsOfJava.
+- Inside Assignment01_BasicsOfJava, create a folder named Set1.
+- Inside Set1, create a Java file named SimpleInterestCalculator.java.
+- Write the solution and save the file.
+- Execute the following Git commands:
+  - git add .
+  - git commit -m "Completed Assignment01 Set1 - Simple Interest Calculator"
+  - git push
+- Expected Folder Structure
+Assignment01_BasicsOfJava
+|
+└── Set1
+     |
+     └── SimpleInterestCalculator.java
+- Expected Path
+Assignment01_BasicsOfJava/Set1/SimpleInterestCalculator.java
 
 # Simple Interest Calculator
 You are building a simple interest calculator for a bank. The program will capture customer details and calculate the interest using basic arithmetic operations.
@@ -58,8 +73,8 @@ Simple Interest: 1950.0
 # Question 2
 
 ## Steps to follow:-  
-Inside the folder "Assignment01_BasicsOfJava", create a Java file named StudentReportCardGenerator.java, write the solution, save it, and then do git add, commit, and push.  
-**Path:-** Assignment01_BasicOfJava/StudentReportCardGenerator.java
+Inside the folder "Assignment01_BasicsOfJava/Set1", create a Java file named StudentReportCardGenerator.java, write the solution, save it, and then do git add, commit, and push.  
+**Path:-** Assignment01_BasicsOfJava/Set1/StudentReportCardGenerator.java
 
 # Student Report Card Generator
 You are developing a basic report card generator for a college's internal system. The system should accept student details and marks for three subjects, then compute the result summary using conditional logic and modular methods.  
@@ -126,8 +141,8 @@ Result: PASS
 # Question 3
 
 ## Steps to follow:-  
-Inside the folder "Assignment01_BasicsOfJava", create a Java file named ElectricityBillCalculator.java, write the solution, save it, and then do git add, commit, and push.  
-**Path:-** Assignment01_BasicOfJava/ElectricityBillCalculator.java
+Inside the folder "Assignment01_BasicsOfJava/Set1", create a Java file named ElectricityBillCalculator.java, write the solution, save it, and then do git add, commit, and push.  
+**Path:-** Assignment01_BasicsOfJava/Set1/ElectricityBillCalculator.java
 
 # Electricity Bill Calculator
 
