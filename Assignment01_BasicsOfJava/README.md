@@ -43,20 +43,17 @@ Time (years): 2
 Simple Interest: 1950.0  
 
 ### Constraints:
-Use the class name as SimpleInterestCalculator
-
-### Variable Names:
-Use the following variable names exactly:
-- accountNumber (int)
-- customerName (String)
-- isActive (boolean)
-- principal (double)
-- rate (double)
-- time (int)
-- interest (double)
-
-Ensure outputs follow the same structure and format as shown in the sample output (including order and percentage sign).  
-Decimal formatting also needs to be taken care of.
+- Use the class name as SimpleInterestCalculator
+- Use the following variable names exactly:
+  - accountNumber (int)
+  - customerName (String)
+  - isActive (boolean)
+  - principal (double)
+  - rate (double)
+  - time (int)
+  - interest (double)
+- Ensure outputs follow the same structure and format as shown in the sample output (including order and percentage sign).  
+- Decimal formatting also needs to be taken care of.
 
 # Question 2
 
@@ -76,7 +73,7 @@ Average Marks
 Grade based on average  
 Pass/Fail Status: A student is considered passed only if they score at least 40 marks in all three subjects  
 
-Displays a formatted report card with the following details:  
+### Displays a formatted report card with the following details:  
 Name  
 Roll number  
 Subject marks  
@@ -85,6 +82,7 @@ Final Result PASS or FAIL
 
 ### Grading Criteria:  
 | Average Marks | Grade |
+| ------------- | ----- |
 | 90-100 | A |
 | 80-89 | B |
 | 70-79 | C |
