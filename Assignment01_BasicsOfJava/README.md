@@ -129,6 +129,8 @@ Result: PASS
 Inside the folder "Assignment01_BasicsOfJava", create a Java file named ElectricityBillCalculator.java, write the solution, save it, and then do git add, commit, and push.  
 **Path:-** Assignment01_BasicOfJava/ElectricityBillCalculator.java
 
+# Electricity Bill Calculator
+
 ## Problem Statement:  
 You are building an electricity billing system for a local utility provider. Based on the number of units consumed, a different rate per unit is applied. Your task is to calculate the final bill amount using methods and conditional statements.  
 
