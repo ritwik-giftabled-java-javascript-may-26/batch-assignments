@@ -1,7 +1,7 @@
 # Question 1
 
 ## Steps to follow:-
-Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava. Inside the folder, create a Java file named SimpleInterestCalculator.java, write the solution, save it, and then do git add, commit, and push.
+Clone your “name-assignments” repo and create a folder named Assignment01_BasicsOfJava. Inside the folder, create a Java file named SimpleInterestCalculator.java, write the solution, save it, and then do git add, commit, and push.  
 **Path:-** Assignment01_BasicOfJava/SimpleInterestCalculator.java
 
 # Simple Interest Calculator
@@ -55,5 +55,5 @@ Use the following variable names exactly:
 - time (int)
 - interest (double)
 
-Ensure outputs follow the same structure and format as shown in the sample output (including order and percentage sign).
+Ensure outputs follow the same structure and format as shown in the sample output (including order and percentage sign).  
 Decimal formatting also needs to be taken care of.
