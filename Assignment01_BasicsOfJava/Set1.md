@@ -1,7 +1,7 @@
 # Question 1
 
 ## Important Steps to Follow:-  
-- Clone your "name-assignments" repository.
+- Clone your `<your-name>-assignments` repository.
 - Create a folder named Assignment01_BasicsOfJava.
 - Inside Assignment01_BasicsOfJava, create a folder named Set1.
 - Inside Set1, create a Java file named SimpleInterestCalculator.java.
