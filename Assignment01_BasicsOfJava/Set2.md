@@ -1,7 +1,7 @@
 # Question 1
 
 ## Important Steps to Follow:-  
-- Clone your "name-assignments" repository.
+- Clone your `<your-name>-assignments` repository.
 - Inside Assignment01_BasicsOfJava folder, create a folder named Set2.
 - Inside Set2, create a Java file named SumOfNaturalNumbers.java.
 - Write the solution and save the file.
