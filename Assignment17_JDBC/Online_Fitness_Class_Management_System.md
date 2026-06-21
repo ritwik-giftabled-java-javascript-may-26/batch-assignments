@@ -160,5 +160,5 @@ ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 
 Sample Input 5  
 7  
 
-Sample Output 5
-Invalid Choice
+Sample Output 5  
+Invalid Choice  
