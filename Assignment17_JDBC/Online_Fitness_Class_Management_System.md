@@ -67,98 +67,98 @@ All class displays must be sorted in reverse alphabetical order of the class_typ
 - Your program should work seamlessly with the provided database configuration.
 
 ## Input Format
-Choice (1/2/3/4)
+Choice (1/2/3/4)  
 
-For Choice 1
-class_id
-class_type
-class_date
-instructor
-duration_mins
+For Choice 1  
+class_id  
+class_type  
+class_date  
+instructor  
+duration_mins  
 
-For Choice 2
-class_id
-class_type
+For Choice 2  
+class_id  
+class_type  
 
-For Choice 3 
-class_id
+For Choice 3   
+class_id  
 
-For Choice 4
-(no further inputs)
+For Choice 4  
+(no further inputs)  
 
-If you choose any other option, it should display:
-"Invalid Choice"
+If you choose any other option, it should display:  
+"Invalid Choice"  
 
-## Output Format
-Insert Success
-Fitness class added successfully!
-ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins 
+## Output Format  
+Insert Success  
+Fitness class added successfully!  
+ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins   
+ 
+Update Success  
+Class duration updated successfully!  
+ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins  
 
-Update Success
-Class duration updated successfully!
-ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins
+Delete Success  
+Fitness class deleted successfully!  
+ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins  
 
-Delete Success
-Fitness class deleted successfully!
-ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins
+Display  
+ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins Sample Inputs and Outputs  
 
-Display
-ClassID: <id>, Type: <class_type>, Date: <class_date>, Instructor: <instructor>, Duration: <duration_mins> mins Sample Inputs and Outputs
+## Sample Inputs and Outputs   
+Sample Input 1  
+1  
+206  
+Yoga  
+2025-08-10  
+Anna Lee  
+60  
 
-## Sample Inputs and Outputs 
-Sample Input 1
-1
-206
-Yoga
-2025-08-10
-Anna Lee
-60
+Sample Output 1  
+Fitness class added successfully!  
+ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins  
+ClassID: 206, Type: Yoga, Date: 2025-08-10, Instructor: Anna Lee, Duration: 60 mins   
+ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins   
+ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins   
+ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins   
+ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins  
 
-Sample Output 1
-Fitness class added successfully!
-ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins 
-ClassID: 206, Type: Yoga, Date: 2025-08-10, Instructor: Anna Lee, Duration: 60 mins 
-ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins 
-ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins 
-ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins 
-ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins
+Sample Input 2  
+2  
+201  
+Pilates  
 
-Sample Input 2
-2
-201
-Pilates
+Sample Output 2    
+Class duration updated successfully!  
+ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins   
+ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins   
+ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 80 mins   
+ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins   
+ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins  
 
-Sample Output 2
-Class duration updated successfully!
-ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins 
-ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins 
-ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 80 mins 
-ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins 
-ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins
+Sample Input 3  
+3  
+205  
 
-Sample Input 3
-3
-205
+Sample Output 3  
+Fitness class deleted successfully!  
+ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins   
+ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins   
+ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins   
+ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins  
 
-Sample Output 3
-Fitness class deleted successfully!
-ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins 
-ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins 
-ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins 
-ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins
+Sample Input 4  
+4  
 
-Sample Input 4
-4
+Sample Output 4  
+ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins   
+ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins   
+ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins   
+ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins   
+ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins  
 
-Sample Output 4
-ClassID: 203, Type: Zumba, Date: 2025-08-18, Instructor: Lisa Ray, Duration: 55 mins 
-ClassID: 202, Type: Spin, Date: 2025-08-12, Instructor: David Kim, Duration: 45 mins 
-ClassID: 201, Type: Pilates, Date: 2025-08-15, Instructor: Emily Chen, Duration: 50 mins 
-ClassID: 205, Type: Kickboxing, Date: 2025-08-20, Instructor: John Doe, Duration: 65 mins 
-ClassID: 204, Type: HIIT, Date: 2025-08-22, Instructor: Mike Wong, Duration: 40 mins
-
-Sample Input 5
-7
+Sample Input 5  
+7  
 
 Sample Output 5
 Invalid Choice
