@@ -12,5 +12,5 @@
 Assignment17_JDBC  
 Assignment17_JDBC/OnlineFitnessClassManagement.java    
 Assignment17_JDBC/OnlineMovieTicketBooking.java  
-Assignment17_JDBC/BookStoreManager.java
-Assignment17_JDBC/ContentManagementSystem.java
+Assignment17_JDBC/BookStoreManager.java  
+Assignment17_JDBC/ContentManagementSystem.java  
