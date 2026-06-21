@@ -18,8 +18,8 @@ Table name: movie_show
 - Class Name: OnlineMovieTicketBooking
 - Database Table Name: movie_show (case-sensitive)
 - Database URL: jdbc:mysql://localhost/giftabled
-- Username: <your-database-username>
-- Password: <your-database-password>
+- Username: <your-database-username>  
+- Password: <your-database-password>  
 - JDBC Driver: com.mysql.cj.jdbc.Driver
   
 ## Methods to be implemented
