@@ -16,8 +16,8 @@ The Online Fitness Class Management System is designed to manage and schedule fi
 - Class Name: OnlineFitnessClassManagement
 - Database Table Name: fitness_class (case-sensitive)
 - Database URL: jdbc:mysql://localhost/giftabled
-- Username: root
-- Password: root
+- Username: <your_database_username>
+- Password: <your_database_password>
 - JDBC Driver: com.mysql.cj.jdbc.Driver
 
 ## Methods to be implemented
