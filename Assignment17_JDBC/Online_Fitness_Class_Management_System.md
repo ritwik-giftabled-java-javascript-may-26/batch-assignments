@@ -4,12 +4,13 @@
 The Online Fitness Class Management System is designed to manage and schedule fitness classes efficiently. It allows adding, updating, deleting, and displaying class records. The records are always displayed sorted in reverse alphabetical order of the class type, providing a better organized view.
 
 ## Table Structure
-Column Name | Data Type | Description
-class_id | INT | Primary Key
-class_type | VARCHAR | Type of fitness class
-class_date | DATE | Date of the class
-instructor | VARCHAR | Name of the instructor
-duration_mins | INT | Duration of the class
+| Column Name | Data Type | Description |
+| ----------- | --------- | ----------- |
+| class_id | INT | Primary Key |
+| class_type | VARCHAR | Type of fitness class |
+| class_date | DATE | Date of the class |
+| instructor | VARCHAR | Name of the instructor |
+| duration_mins | INT | Duration of the class |
 
 ## Constraints
 - Class Name: OnlineFitnessClassManagement
