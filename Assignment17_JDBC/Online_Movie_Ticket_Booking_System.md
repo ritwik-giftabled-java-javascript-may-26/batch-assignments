@@ -4,7 +4,7 @@
 The Online Movie Ticket Booking System is designed to manage and streamline movie show bookings efficiently. It allows adding new movie show records, updating available seats, deleting shows, and displaying all shows.  
 All show records must be displayed in descending order of available seats, so users can easily see shows with the most available seats first.  
 
-### Table Structure
+## Table Structure
 Table name: movie_show
 | Column Name | Data Type | Description |
 | ----------- | --------- | ----------- |
@@ -14,7 +14,7 @@ Table name: movie_show
 | theater_name | VARCHAR(100) | Name of the theater |
 | available seats | INT | Number of available seats |
 
-### Constraints
+## Constraints
 - Class Name: OnlineMovieTicketBooking
 - Database Table Name: movie_show (case-sensitive)
 - Database URL: jdbc:mysql://localhost/giftabled
@@ -22,7 +22,7 @@ Table name: movie_show
 - Password: <your-database-password>
 - JDBC Driver: com.mysql.cj.jdbc.Driver
   
-### Methods to be implemented
+## Methods to be implemented
 - public static Connection getConnection()
 - public static void displayAllShows (Connection con)
 - public static void insertShow (Connection con, Scanner sc)
@@ -30,7 +30,7 @@ Table name: movie_show
 - public static void deleteShow (Connection con, Scanner sc)
 - public static void processMenu (Connection con, Scanner sc)
 
-### Requirements
+## Requirements
 Insert New Movie Show  
 Input: show_id, movie_title, show_date, theater_name, available_seats  
 Insert a new show record into the table.  
@@ -62,7 +62,7 @@ Display all shows sorted in descending order of available_seats.
 Sorting Requirement  
 All show displays must be sorted in descending order of the available seats field, so that shows with the most seats available appear first.  
 
-### Input Format
+## Input Format
 Choice (1/2/3/4)  
 
 For Choice 1  
@@ -85,7 +85,7 @@ For Choice 4
 If you choose any other option, it should display:  
 "Invalid Choice"  
 
-### Output Format
+## Output Format
 Insert Success  
 Movie show added successfully!  
 ShowID: <id>, Movie: <movie_title>, Date: <show_date>, Theater: <theater_name>, Available Seats: < available_seats>  
@@ -98,7 +98,7 @@ ShowID: <id>, Movie: <movie_title>, Date: <show_date>, Theater: <theater_name>, 
 Display  
 ShowID: <id>, Movie: <movie_title>, Date: <show_date>, Theater: <theater_name>, Available Seats: <available_seats>  
 
-### Sample Inputs and Outputs
+## Sample Inputs and Outputs
 Sample Input 1  
 1  
 301  
@@ -141,6 +141,6 @@ Sample Input 5
 Sample Output 5  
 Invalid Choice  
 
-Notes:
+## Notes:
 - Use try, catch, and finally blocks to handle SQLException properly.  
 - After every operation (insert, update, delete), display the list of shows sorted by available seats in descending order. Assume some records are already pre-populated.
