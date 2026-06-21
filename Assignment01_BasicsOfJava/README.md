@@ -2,8 +2,8 @@
 
 ## Available Sets
 
-- Set1.md
-- Set2.md
+- [Set1.md](./Set1.md)
+- [Set2.md](./Set2.md)
 
 ## Submission Folder:
 
