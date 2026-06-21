@@ -109,7 +109,8 @@ IMAX Chennai
 
 Sample Output 1  
 Movie show added successfully!  
-ShowID: 301, Movie: Inception, Date: 2025-08-15, Theater: IMAX Chennai, Available Seats: 150 ShowID: 302, Movie: Interstellar, Date: 2025-08-20, Theater: PVR Mumbai, Available Seats: 200 (Here, Interstellar will appear first since it has more seats)  
+ShowID: 301, Movie: Inception, Date: 2025-08-15, Theater: IMAX Chennai, Available Seats: 150   
+ShowID: 302, Movie: Interstellar, Date: 2025-08-20, Theater: PVR Mumbai, Available Seats: 200 (Here, Interstellar will appear first since it has more seats)  
 
 Sample Input 2  
 2  
@@ -118,7 +119,8 @@ Inception
 
 Sample Output 2  
 Seats updated successfully!  
-ShowID: 301, Movie: Inception, Date: 2025-08-15, Theater: IMAX Chennai, Available Seats: 170 ShowID: 302, Movie: Interstellar, Date: 2025-08-20, Theater: PVR Mumbai, Available Seats: 200  
+ShowID: 301, Movie: Inception, Date: 2025-08-15, Theater: IMAX Chennai, Available Seats: 170   
+ShowID: 302, Movie: Interstellar, Date: 2025-08-20, Theater: PVR Mumbai, Available Seats: 200   
 
 Sample Input 3  
 3  
@@ -143,4 +145,4 @@ Invalid Choice
 
 ## Notes:
 - Use try, catch, and finally blocks to handle SQLException properly.  
-- After every operation (insert, update, delete), display the list of shows sorted by available seats in descending order. Assume some records are already pre-populated.
+- After every operation (insert, update, delete), display the list of shows sorted by available seats in descending order.  
