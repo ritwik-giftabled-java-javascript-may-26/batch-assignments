@@ -4,7 +4,7 @@
 Create a Spring Boot application with two entities: "Student" and "StudentIDCard". A Student can have only one StudentIDCard. Implement a one-to-one mapping between these entities using Spring JPA 
 
 ## Functional Requirements:
-Create folders named as controller, model, repository, and service inside the studentstudentidcardonetoone/src/main/java/com/examly/studentstudentidcardonetoone.
+Create folders named as controller, model, repository, and service inside the **studentstudentidcardonetoone/src/main/java/com/examly/studentstudentidcardonetoone**.
 
 Inside the controller folder, create a class named "StudentController".
 
@@ -57,6 +57,6 @@ src
 ## API ENDPOINTS:
 - POST "/student" - Returns response status code 201 along with the student object, which includes details of the student's ID card. The request body should include the student object along with the student's ID card details.
 - GET "/student" - Returns response status 200 with List<Student> object, which includes details of the student's ID card on successful retrieval or else 404.
-- GET"/student/{id}" - Returns response status 200 with student object, which includes details of the student's ID card on successful retrieval or else 404.
-- PUT"/student/{id}" - Returns response status 200 with updated student object, which includes details of the student's ID card on successful updation or else 404. The request body should include the student object along with the student's ID card details. All fields are modifiable except for the 'id' field.
-- DELETE"/student/{id}" - Returns response status 200 with String "Deleted Student successfully" on successful deletion or else "Student with ID " +id+" not found".
+- GET "/student/{id}" - Returns response status 200 with student object, which includes details of the student's ID card on successful retrieval or else 404.
+- PUT "/student/{id}" - Returns response status 200 with updated student object, which includes details of the student's ID card on successful updation or else 404. The request body should include the student object along with the student's ID card details. All fields are modifiable except for the 'id' field.
+- DELETE "/student/{id}" - Returns response status 200 with String "Deleted Student successfully" on successful deletion or else "Student with ID " +id+" not found".
