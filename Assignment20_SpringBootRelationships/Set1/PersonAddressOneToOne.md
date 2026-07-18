@@ -13,7 +13,7 @@ Inside the model folder, Create a class named "Person" with the following attrib
 2. name - String
 3. email - String
 4. phoneNumber - String
-5. nationality String
+5. nationality - String
 6. address - Address (OneToOne)
    
 Create another class named "Address" with the following attributes
