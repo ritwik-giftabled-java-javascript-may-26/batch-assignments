@@ -10,7 +10,7 @@ Inside the controller folder, create classes named "PassportController" and "Per
 
 Inside the model folder, Create a class named "Passport" with the following attributes
 1. id - Long (auto-generated)
-2. serialNumber-String
+2. serialNumber - String
 3. issueYear - int
 4. country - String
 
