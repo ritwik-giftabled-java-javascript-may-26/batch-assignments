@@ -4,7 +4,7 @@
 Create a Spring Boot application with two entities: "Person" and "Address". A person can have only one address. Implement a one-to-one mapping between these entities using Spring JPA 
 
 ## Functional Requirements:
-Create folders named as controller, model, repository, and service inside the WORKSPACE/springapp/src/main/java/com/examly/springapp.
+Create folders named as controller, model, repository, and service inside the personaddressonetoone/src/main/java/com/giftabled/personaddressonetoone.
 
 Inside the controller folder, create classes named "PersonController" and "AddressController".
 
@@ -37,7 +37,7 @@ src
     └── java
         └── com
             └── giftabled
-                └── springapp
+                └── personaddressonetoone
                     ├── controller
                     │   ├── AddressController.java
                     │   └── PersonController.java
