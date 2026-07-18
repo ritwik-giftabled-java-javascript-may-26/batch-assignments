@@ -4,7 +4,7 @@
 Create a Spring Boot application with two entities: "Person" and "Address". A person can have only one address. Implement a one-to-one mapping between these entities using Spring JPA 
 
 ## Functional Requirements:
-Create folders named as controller, model, repository, and service inside the personaddressonetoone/src/main/java/com/giftabled/personaddressonetoone.
+Create folders named as controller, model, repository, and service inside the **personaddressonetoone/src/main/java/com/giftabled/personaddressonetoone**.
 
 Inside the controller folder, create classes named "PersonController" and "AddressController".
 
@@ -57,8 +57,8 @@ src
                     └── SpringappApplication.java
 ```
 
-## API ENDPOINTS:
+## API ENDPOINTS
 - POST "/person" - Returns response status 201 with person object on successful creation or else 500.
 - POST "/address/person/{personld}" - Returns response status 201 with address object on successfully mapping the address to the personld or else 500. 
 - GET "/person" - Returns response status 200 with List<Person> object, which includes details of the address on successful retrieval or else 404. 
-- GET"/person/{personld}" - Returns response status 200 with person object, which includes details of the address on successful retrieval or else 404.
+- GET "/person/{personld}" - Returns response status 200 with person object, which includes details of the address on successful retrieval or else 404.
