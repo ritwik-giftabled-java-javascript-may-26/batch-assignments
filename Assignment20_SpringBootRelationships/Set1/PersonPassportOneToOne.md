@@ -4,7 +4,7 @@
 Create a Spring Boot application with two entities: "Person" and "Passport". A person can have only one passport and a passport can belong to only one person. Implement a one-to-one mapping between these entities using Spring JPA. 
 
 ## Functional Requirements:
-Create folders named as controller, model, repository, and service inside the personpassportonetoone/src/main/java/com/giftabled/personpassportonetoone.
+Create folders named as controller, model, repository, and service inside the **personpassportonetoone/src/main/java/com/giftabled/personpassportonetoone**.
 
 Inside the controller folder, create classes named "PassportController" and "PersonController".
 
@@ -62,9 +62,10 @@ src
         └── application.properties
 ```
 
-## API ENDPOINTS:
+## API ENDPOINTS
 - POST - "/passport" - Returns response status 201 with passport object on successful creation or else 400.
-- POST-"/person/passport/{passportid}" - Returns response status 201 with person object on successfully mapping the person to the passportid or else 400. 
-- GET-"/person/{personld}" - Returns response status 200 with person object, which includes details of the passport on successful retrieval or else 404. 
-- GET-"/passport"- Returns response status 200 with List<Passport> object on successful retrieval or else 404.
-GET-"/person/search/name?name={name}" - Returns response status 200 with a List<Person> objects matching the search criteria, or 404 if no persons are found. GET-"/person/search/email?email={email}" - Returns response status 200 with a List<Person> objects matching the search criteria, or 404 if no persons are found.
+- POST - "/person/passport/{passportid}" - Returns response status 201 with person object on successfully mapping the person to the passportid or else 400. 
+- GET - "/person/{personld}" - Returns response status 200 with person object, which includes details of the passport on successful retrieval or else 404. 
+- GET - "/passport"- Returns response status 200 with List<Passport> object on successful retrieval or else 404.
+- GET - "/person/search/name?name={name}" - Returns response status 200 with a List<Person> objects matching the search criteria, or 404 if no persons are found.
+- GET - "/person/search/email?email={email}" - Returns response status 200 with a List<Person> objects matching the search criteria, or 404 if no persons are found.
