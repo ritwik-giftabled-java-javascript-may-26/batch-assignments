@@ -4,7 +4,7 @@
 Create a Spring Boot application with two entities: "Post" and "Comment". A post can have multiple comments, and a comment can belong to only one post. Implement a one-to-many bidirectional mapping between these entities using Spring JPA. 
 
 ## Functional Requirements:
-Create folders named controller, model, repository, and service inside the **postcomment1tonnto1/src/main/java/com/examly/postcomment1tonnto1**.
+Create folders named controller, model, repository, and service inside the **postcomment1tonnto1/src/main/java/com/giftabled/postcomment1tonnto1**.
 
 Inside the controller folder, create classes named "PostController" and "CommentController".
 
@@ -35,7 +35,7 @@ Refer to the below image for the project structure:
     └── main
         ├── java
         │   └── com
-        │       └── examly
+        │       └── giftabled
         │           └── postcomment1tonnto1
         │               ├── controller
         │               │   ├── CommentController.java
